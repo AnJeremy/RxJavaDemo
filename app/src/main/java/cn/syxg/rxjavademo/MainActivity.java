@@ -100,5 +100,8 @@ public class MainActivity extends AppCompatActivity {
         };
 
          stringObservable.subscribe(stringObserver);
+
+
+         System.out.print("hello");
     }
 }
