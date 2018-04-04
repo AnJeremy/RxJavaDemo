@@ -96,10 +96,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onComplete() {
 
-
             }
         };
 
-        stringObservable.subscribe(stringObserver);
+         stringObservable.subscribe(stringObserver);
     }
 }
